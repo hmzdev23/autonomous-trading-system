@@ -1,0 +1,44 @@
+# ── Environment & Secrets ──
+.env
+*.env.*
+.env.local
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# ── Reports, PDFs & report generators (private) ──
+hedge_fund/reports/
+hedge_fund/reporting/
+reports/
+*.pdf
+
+# ── Logs ──
+hedge_fund/logs/
+logs/
+*.log
+
+# ── Node ──
+node_modules/
+.next/
+out/
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+
+# ── IDE ──
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Misc ──
+.gemini/
+claude-code-trading-prompt.md
